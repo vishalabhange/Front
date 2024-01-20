@@ -1,0 +1,77 @@
+body {
+  background-image: url("D:/web/side/images/bg2.jpg");
+  background-size: auto 900px;
+  background-repeat: no-repeat;
+  background-color: #11998e;
+  margin: 0;
+  font-family: sans-serif;
+  color: white;
+}
+
+
+/* navbar */
+
+#abc{
+  width:100%;
+  height:100vh;
+  background-size: cover;
+}
+nav{
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+}
+nav ul{
+  float: right;
+  margin-right: 30px;
+}
+nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  transition: 0.7s all;
+}
+nav ul li:hover{
+  background-color:#088;
+}
+nav ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 30px;
+}
+
+
+/* container */
+
+.container2 {
+  background: linear-gradient(to right, #285430 30%, rgba(17, 130, 105, 99%) 90%, rgba(0, 109, 0, 0%) 100%);
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 40%;
+  min-width: 600px;
+}
+
+.sub-container {
+  margin-left: 0px;
+}
+
+.main-message {
+  width: 30em;
+  margin: 80px 20px 0 30px;
+}
+
+.main-message h1 {
+  font-size: 3em;
+}
+
+.main-message p {
+  text-align: left;
+}
+
+.flag {
+  position: fixed;
+  width: 50px;
+  margin: 12em 0 0 20em;
+  transform: rotate(20deg);
+}
